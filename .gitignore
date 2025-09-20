@@ -71,3 +71,4 @@ venv.bak/
 .DS_Store
 
 This file helps keep your repository clean by excluding unnecessary files like compiled Python files, virtual environments, and IDE-specific settings. You can customize it further based on your project's needs.
+data/constitution_pdf/coi-4March2016.pdf
