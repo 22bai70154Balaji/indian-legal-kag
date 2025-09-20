@@ -7,7 +7,7 @@ import re
 import logging
 from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
-from .constitutional_articles import CONSTITUTIONAL_ARTICLES, LANDMARK_CASES, DPDPA_PROVISIONS
+from config.constitutional_articles import CONSTITUTIONAL_ARTICLES, LANDMARK_CASES, DPDPA_PROVISIONS
 
 logger = logging.getLogger(__name__)
 

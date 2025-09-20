@@ -5,7 +5,7 @@ import logging
 from typing import Dict, List, Any, Optional
 from datetime import datetime
 import re
-from .knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
+from core.knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
 
 logger = logging.getLogger(__name__)
 

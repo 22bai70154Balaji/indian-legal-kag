@@ -10,7 +10,7 @@ from langchain_groq import ChatGroq
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.prompts import PromptTemplate
-from .knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
+from core.knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
 
 logger = logging.getLogger(__name__)
 

@@ -5,8 +5,8 @@ FIXED VERSION - Ready to Use
 
 import logging
 from typing import Dict, List, Any, Optional, Tuple
-from .neo4j_config import get_neo4j_connection
-from .constitutional_articles import CONSTITUTIONAL_ARTICLES, DPDPA_PROVISIONS, LANDMARK_CASES
+from config.neo4j_config import get_neo4j_connection
+from config.constitutional_articles import CONSTITUTIONAL_ARTICLES, DPDPA_PROVISIONS, LANDMARK_CASES
 
 logger = logging.getLogger(__name__)
 

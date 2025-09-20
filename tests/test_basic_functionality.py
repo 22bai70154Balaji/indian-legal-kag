@@ -4,9 +4,9 @@ Basic functionality tests for Indian Legal KAG System
 import pytest
 import os
 from unittest.mock import Mock, patch
-from .processors.document_processor import IndianLegalDocumentProcessor
-from .messaging.smtp_manager import SMTPEmailManager
-from .indian_legal_utils import validate_environment_variables
+from core.processors.document_processor import IndianLegalDocumentProcessor
+from core.messaging.smtp_manager import SMTPEmailManager
+from utils.indian_legal_utils import validate_environment_variables
 
 def test_document_processor_initialization():
     """Test document processor can be initialized"""

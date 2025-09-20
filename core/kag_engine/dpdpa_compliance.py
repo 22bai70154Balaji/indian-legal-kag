@@ -5,8 +5,8 @@ DPDPA 2023 Compliance Engine with Constitutional Integration - Complete Updated 
 import logging
 from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
-from .knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
-from .kag_engine.privacy_analyzer import Article21PrivacyAnalyzer
+from core.knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
+from core.kag_engine.privacy_analyzer import Article21PrivacyAnalyzer
 
 logger = logging.getLogger(__name__)
 

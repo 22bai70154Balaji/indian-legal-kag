@@ -10,7 +10,7 @@ import logging
 import re
 from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
-from .knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
+from core.knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
 
 logger = logging.getLogger(__name__)
 

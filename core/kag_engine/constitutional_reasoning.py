@@ -7,8 +7,8 @@ import logging
 from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
 import networkx as nx
-from .knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
-from .knowledge_graph.graph_builder import DynamicGraphBuilder
+from core.knowledge_graph.neo4j_manager import ConstitutionalKnowledgeGraph
+from core.knowledge_graph.graph_builder import DynamicGraphBuilder
 
 logger = logging.getLogger(__name__)
 
