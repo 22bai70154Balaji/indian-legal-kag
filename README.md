@@ -241,11 +241,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LangChain**: LLM framework and tools
 - **Streamlit**: Web application framework
 
-## 📞 Support
-
-For support, please open an issue on GitHub or contact:
-- **Email**: [your-email@domain.com]
-- **GitHub**: [@badrinath-26](https://github.com/badrinath-26)
+## Authors
+Bontu Sai Balaji
+Maity Shibam
+Pasam Tharun
 
 ## 🔮 Future Enhancements
 
